@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Thai Food</title>
+
+<style>
+body{
+  margin:0;
+  padding:0;
+}
+
+.container{
+  width:1000px;
+  margin:auto;
+}
+
+.menu-wrap{
+  width:150px;
+  float:left;
+}
+
+.menu{
+  display:block;
+  width:150px;
+  height:75px;
+  background-size:cover;
+}
+
+/* เมนู 5 ปุ่ม */
+.home{ background-image:url("menu/1.png"); }
+.home:hover{ background-image:url("menu/2.png"); }
+
+.south{ background-image:url("menu/5.png"); }
+.south:hover{ background-image:url("menu/6.png"); }
+
+.north{ background-image:url("menu/3.png"); }
+.north:hover{ background-image:url("menu/4.png"); }
+
+.central{ background-image:url("menu/9.png"); }
+.central:hover{ background-image:url("menu/10.png"); }
+
+.isan{ background-image:url("menu/7.png"); }
+.isan:hover{ background-image:url("menu/8.png"); }
+
+.content{
+  width:850px;
+  float:left;
+}
+
+.clear{
+  clear:both;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+  <!-- Banner -->
+  <img src="banner/banner.png" width="1000" height="250">
+
+  <!-- เมนู -->
+  <div class="menu-wrap">
+    <a href="index.html" class="menu home"></a>
+    <a href="south.html" class="menu south"></a>
+    <a href="north.html" class="menu north"></a>
+    <a href="central.html" class="menu central"></a>
+    <a href="isan.html" class="menu isan"></a>
+  </div>
+
+  <!-- Content -->
+  <div class="content">
+    <img src="content/content.png" width="850" height="375">
+  </div>
+
+  <div class="clear"></div>
+
+  <!-- Footer -->
+  <img src="footer/footer.png" width="1000" height="150">
+
+</div>
+
+</body>
+</html>
